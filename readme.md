@@ -16,31 +16,6 @@ Project2 is a Node.js-based backend application that provides user authenticatio
 - Password reset via email
 - CORS support for frontend integration
 
-## Folder Structure
-```
-.
-├── config/
-│   └── db.js                # MongoDB connection configuration
-├── controller/
-│   └── user.controller.js   # User-related business logic
-├── middlewear/
-│   ├── auth.middlewear.js   # JWT authentication middleware
-│   └── session.middlewear.js # Redis session middleware
-├── models/
-│   └── user.model.js        # Mongoose user schema
-├── nodemailer/
-│   └── nodemailer.js        # Nodemailer configuration
-├── redis/
-│   └── redisConnection.js   # Redis connection configuration
-├── routes/
-│   ├── dummy.route.js       # Example route
-│   └── user.routes.js       # User-related routes
-├── .env                     # Environment variables
-├── .gitignore               # Git ignore file
-├── index.js                 # Entry point of the application
-├── package.json             # Project metadata and dependencies
-└── README.md                # Project documentation
-```
 
 ## Prerequisites
 - Node.js (v16 or higher)
