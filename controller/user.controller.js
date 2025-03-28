@@ -61,7 +61,7 @@ const forgot_pass = async (req, res) => {
             html: `
                 <p>Hi ${user.name},</p>
                 <p>We received a request to reset your password. Click the link below to reset your password:</p>
-                <a href="http://localhost:${process.env.PORT}/reset-password/${resetToken}">Reset Password</a>
+                <a href="http://localhost:${process.env.PORT}/user/reset_pass/${resetToken}">Reset Password</a>
                 <p>If you didn't request this change, please ignore this email or contact support.</p>
                 <p>Best regards,<br>Your Company Team</p>
             `, // HTML body content
